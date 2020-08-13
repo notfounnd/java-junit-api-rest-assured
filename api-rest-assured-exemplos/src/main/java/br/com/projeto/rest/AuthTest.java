@@ -28,14 +28,12 @@ public class AuthTest {
 		;
 	}
 	
-	//c817410a7e3230fb45f97d434a8c6b13
-	
 	@Test
 	public void deveObterClima() {
 		given()
 			.log().all()
 			.queryParam("q", "Curitiba,BR")
-			.queryParam("appid", "c817410a7e3230fb45f97d434a8c6b13")
+			.queryParam("appid", "")
 			.queryParam("units","metric")
 		.when()
 			.get("http://api.openweathermap.org/data/2.5/weather")
@@ -132,6 +130,8 @@ public class AuthTest {
 			.body("nome", hasItem("Conta de Teste"))
 		;
 	}
+	
+	//c817410a7e3230fb45f97d434a8c6b13
 	
 	@Test
 	public void deveAcessarAplicacaoWeb() {
