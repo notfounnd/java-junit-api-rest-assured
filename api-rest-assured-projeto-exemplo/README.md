@@ -1,6 +1,6 @@
-# Java + Cucumber + Rest Assured
+# Java + Rest Assured
 
-Projeto de automação desenvolvido com o Java + Cucumber + Rest Assured e integrado com relatório HTML para acompanhamento de execuções que teve como objetivo validar de forma prática sua aplicação em um processo de testes automatizados de serviço.
+Projeto de automação desenvolvido com o Java + Rest Assured e integrado com relatório HTML para acompanhamento de execuções que teve como objetivo validar de forma prática sua aplicação em um processo de testes automatizados de serviço.
 
 ### Requisitos
 Para utilização é necessário possuir em sua estação de trabalho:
