@@ -48,6 +48,6 @@ Após efetuar a execução dos testes é possível verificar o relatório detalh
 ```
 ./target/report/results-report-a91bf052-1b92-4a6f-903b-1c3cafe78f45.html
 ```
-![Resport Result](https://github.com/notfounnd/java-junit-api-rest-assured/blob/master/api-rest-assured-report-portal/report/report-sample.png)
+![Resport Result](./report/report-sample.png)
 
 ***Observação:*** _Um novo arquivo report será gerado a cada execução._
