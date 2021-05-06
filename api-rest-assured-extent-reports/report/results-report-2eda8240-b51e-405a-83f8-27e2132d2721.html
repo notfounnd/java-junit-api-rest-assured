@@ -1,0 +1,1207 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Extent Report - Test Summary</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Test Summary - QAS</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">06-05-2021 13:09:27</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">com.project.service.scopey.tests</a><a class="dropdown-item" href="#">com.project.service.scopex.tests</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag="com.project.service.scopex.tests"
+          device="">
+          <div class="test-detail">
+            <p class="name">AccountTests.shouldUpdateAnAccount</p>
+            <p class="text-sm">
+              <span>13:09:34</span> / <span>00:00:01:829</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">AccountTests.shouldUpdateAnAccount</h5>
+<span class='badge badge-success'>05.06.2021 13:09:34</span>
+<span class='badge badge-danger'>05.06.2021 13:09:35</span>
+<span class='badge badge-default'>00:00:01:829</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">com.project.service.scopex.tests</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>13:09:35</td>
+        <td>
+          Test executed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag="com.project.service.scopex.tests"
+          device="">
+          <div class="test-detail">
+            <p class="name">AccountTests.shouldNotDeleteAccountWithTransaction</p>
+            <p class="text-sm">
+              <span>13:09:35</span> / <span>00:00:01:642</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">AccountTests.shouldNotDeleteAccountWithTransaction</h5>
+<span class='badge badge-success'>05.06.2021 13:09:35</span>
+<span class='badge badge-danger'>05.06.2021 13:09:37</span>
+<span class='badge badge-default'>00:00:01:642</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">com.project.service.scopex.tests</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>13:09:37</td>
+        <td>
+          Test executed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag="com.project.service.scopex.tests"
+          device="">
+          <div class="test-detail">
+            <p class="name">AccountTests.shouldCreateAnAccount</p>
+            <p class="text-sm">
+              <span>13:09:37</span> / <span>00:00:00:817</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">AccountTests.shouldCreateAnAccount</h5>
+<span class='badge badge-success'>05.06.2021 13:09:37</span>
+<span class='badge badge-danger'>05.06.2021 13:09:38</span>
+<span class='badge badge-default'>00:00:00:817</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">com.project.service.scopex.tests</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>13:09:38</td>
+        <td>
+          Test executed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag="com.project.service.scopex.tests"
+          device="">
+          <div class="test-detail">
+            <p class="name">AccountTests.shouldNotCreateAnAccountWithSameName</p>
+            <p class="text-sm">
+              <span>13:09:38</span> / <span>00:00:00:833</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">AccountTests.shouldNotCreateAnAccountWithSameName</h5>
+<span class='badge badge-success'>05.06.2021 13:09:38</span>
+<span class='badge badge-danger'>05.06.2021 13:09:39</span>
+<span class='badge badge-default'>00:00:00:833</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">com.project.service.scopex.tests</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>13:09:39</td>
+        <td>
+          Test executed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag="com.project.service.scopex.tests"
+          device="">
+          <div class="test-detail">
+            <p class="name">TransactionsTests.shouldValidateRequiredFieldsToCreateTransaction</p>
+            <p class="text-sm">
+              <span>13:09:39</span> / <span>00:00:00:830</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TransactionsTests.shouldValidateRequiredFieldsToCreateTransaction</h5>
+<span class='badge badge-success'>05.06.2021 13:09:39</span>
+<span class='badge badge-danger'>05.06.2021 13:09:40</span>
+<span class='badge badge-default'>00:00:00:830</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">com.project.service.scopex.tests</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>13:09:40</td>
+        <td>
+          Test executed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag="com.project.service.scopex.tests"
+          device="">
+          <div class="test-detail">
+            <p class="name">TransactionsTests.shouldDeleteTransaction</p>
+            <p class="text-sm">
+              <span>13:09:40</span> / <span>00:00:01:786</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TransactionsTests.shouldDeleteTransaction</h5>
+<span class='badge badge-success'>05.06.2021 13:09:40</span>
+<span class='badge badge-danger'>05.06.2021 13:09:41</span>
+<span class='badge badge-default'>00:00:01:786</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">com.project.service.scopex.tests</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>13:09:41</td>
+        <td>
+          Test executed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag="com.project.service.scopex.tests"
+          device="">
+          <div class="test-detail">
+            <p class="name">TransactionsTests.shouldNotCreateTransactionWithFutureDate</p>
+            <p class="text-sm">
+              <span>13:09:41</span> / <span>00:00:01:674</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TransactionsTests.shouldNotCreateTransactionWithFutureDate</h5>
+<span class='badge badge-success'>05.06.2021 13:09:41</span>
+<span class='badge badge-danger'>05.06.2021 13:09:43</span>
+<span class='badge badge-default'>00:00:01:674</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">com.project.service.scopex.tests</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>13:09:43</td>
+        <td>
+          Test executed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag="com.project.service.scopex.tests"
+          device="">
+          <div class="test-detail">
+            <p class="name">TransactionsTests.shouldCreateTransaction</p>
+            <p class="text-sm">
+              <span>13:09:43</span> / <span>00:00:01:607</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TransactionsTests.shouldCreateTransaction</h5>
+<span class='badge badge-success'>05.06.2021 13:09:43</span>
+<span class='badge badge-danger'>05.06.2021 13:09:45</span>
+<span class='badge badge-default'>00:00:01:607</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">com.project.service.scopex.tests</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>13:09:45</td>
+        <td>
+          Test executed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag="com.project.service.scopex.tests"
+          device="">
+          <div class="test-detail">
+            <p class="name">BalanceTests.shouldGetBalanceAccount</p>
+            <p class="text-sm">
+              <span>13:09:45</span> / <span>00:00:01:712</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">BalanceTests.shouldGetBalanceAccount</h5>
+<span class='badge badge-success'>05.06.2021 13:09:45</span>
+<span class='badge badge-danger'>05.06.2021 13:09:46</span>
+<span class='badge badge-default'>00:00:01:712</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">com.project.service.scopex.tests</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>13:09:46</td>
+        <td>
+          Test executed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag="com.project.service.scopex.tests"
+          device="">
+          <div class="test-detail">
+            <p class="name">AuthenticationTests.shouldNotAccessApiWithoutAuthorizationToken</p>
+            <p class="text-sm">
+              <span>13:09:46</span> / <span>00:00:00:814</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">AuthenticationTests.shouldNotAccessApiWithoutAuthorizationToken</h5>
+<span class='badge badge-success'>05.06.2021 13:09:46</span>
+<span class='badge badge-danger'>05.06.2021 13:09:47</span>
+<span class='badge badge-default'>00:00:00:814</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">com.project.service.scopex.tests</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>13:09:47</td>
+        <td>
+          Test executed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag="com.project.service.scopey.tests"
+          device="">
+          <div class="test-detail">
+            <p class="name">UserTests.shouldUpdateUserInfo</p>
+            <p class="text-sm">
+              <span>13:09:48</span> / <span>00:00:01:249</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">UserTests.shouldUpdateUserInfo</h5>
+<span class='badge badge-success'>05.06.2021 13:09:48</span>
+<span class='badge badge-danger'>05.06.2021 13:09:49</span>
+<span class='badge badge-default'>00:00:01:249</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">com.project.service.scopey.tests</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>13:09:49</td>
+        <td>
+          Test executed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author=""
+          tag="com.project.service.scopey.tests"
+          device="">
+          <div class="test-detail">
+            <p class="name">UserTests.shouldMatchCreateUserSchema</p>
+            <p class="text-sm">
+              <span>13:09:49</span> / <span>00:00:01:137</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">UserTests.shouldMatchCreateUserSchema</h5>
+<span class='badge badge-success'>05.06.2021 13:09:49</span>
+<span class='badge badge-danger'>05.06.2021 13:09:50</span>
+<span class='badge badge-default'>00:00:01:137</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">com.project.service.scopey.tests</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>13:09:50</td>
+        <td>
+          Test executed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="13"
+          author=""
+          tag="com.project.service.scopey.tests"
+          device="">
+          <div class="test-detail">
+            <p class="name">UserTests.shouldGetUsersListPagination</p>
+            <p class="text-sm">
+              <span>13:09:50</span> / <span>00:00:00:133</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">UserTests.shouldGetUsersListPagination</h5>
+<span class='badge badge-success'>05.06.2021 13:09:50</span>
+<span class='badge badge-danger'>05.06.2021 13:09:50</span>
+<span class='badge badge-default'>00:00:00:133</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">com.project.service.scopey.tests</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>13:09:50</td>
+        <td>
+          Test executed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author=""
+          tag="com.project.service.scopey.tests"
+          device="">
+          <div class="test-detail">
+            <p class="name">UserTests.shouldGetEmptyResponseInUserSearch</p>
+            <p class="text-sm">
+              <span>13:09:50</span> / <span>00:00:00:520</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">UserTests.shouldGetEmptyResponseInUserSearch</h5>
+<span class='badge badge-success'>05.06.2021 13:09:50</span>
+<span class='badge badge-danger'>05.06.2021 13:09:51</span>
+<span class='badge badge-default'>00:00:00:520</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">com.project.service.scopey.tests</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>13:09:51</td>
+        <td>
+          Test executed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author=""
+          tag="com.project.service.scopey.tests"
+          device="">
+          <div class="test-detail">
+            <p class="name">RegisterTests.shouldReturnErrorInSystemRegistrationAttempting</p>
+            <p class="text-sm">
+              <span>13:09:51</span> / <span>00:00:00:558</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">RegisterTests.shouldReturnErrorInSystemRegistrationAttempting</h5>
+<span class='badge badge-success'>05.06.2021 13:09:51</span>
+<span class='badge badge-danger'>05.06.2021 13:09:51</span>
+<span class='badge badge-default'>00:00:00:558</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">com.project.service.scopey.tests</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>13:09:51</td>
+        <td>
+          Test executed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="16"
+          author=""
+          tag="com.project.service.scopey.tests"
+          device="">
+          <div class="test-detail">
+            <p class="name">RegisterTests.shouldMatchSystemRegistrationSchema</p>
+            <p class="text-sm">
+              <span>13:09:51</span> / <span>00:00:00:572</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">RegisterTests.shouldMatchSystemRegistrationSchema</h5>
+<span class='badge badge-success'>05.06.2021 13:09:51</span>
+<span class='badge badge-danger'>05.06.2021 13:09:52</span>
+<span class='badge badge-default'>00:00:00:572</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">com.project.service.scopey.tests</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>13:09:52</td>
+        <td>
+          Test executed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="17"
+          author=""
+          tag="com.project.service.scopey.tests"
+          device="">
+          <div class="test-detail">
+            <p class="name">FailTests.shouldReturnErrorInSystemRegistrationAttempting</p>
+            <p class="text-sm">
+              <span>13:09:52</span> / <span>00:00:00:643</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">FailTests.shouldReturnErrorInSystemRegistrationAttempting</h5>
+<span class='badge badge-success'>05.06.2021 13:09:52</span>
+<span class='badge badge-danger'>05.06.2021 13:09:52</span>
+<span class='badge badge-default'>00:00:00:643</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">com.project.service.scopey.tests</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>13:09:52</td>
+        <td>
+          Test failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>13:09:52</td>
+        <td>
+          With error: java.lang.AssertionError: 1 expectation failed.
+JSON path error doesn't match.
+Expected: Wrong password
+  Actual: Missing password
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="18"
+          author=""
+          tag="com.project.service.scopey.tests"
+          device="">
+          <div class="test-detail">
+            <p class="name">FailTests.shouldMatchSystemRegistrationSchema</p>
+            <p class="text-sm">
+              <span>13:09:52</span> / <span>00:00:00:552</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">FailTests.shouldMatchSystemRegistrationSchema</h5>
+<span class='badge badge-success'>05.06.2021 13:09:52</span>
+<span class='badge badge-danger'>05.06.2021 13:09:53</span>
+<span class='badge badge-default'>00:00:00:552</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">com.project.service.scopey.tests</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>13:09:53</td>
+        <td>
+          Test failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>13:09:53</td>
+        <td>
+          With error: java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["username"])
+    level: "error"
+    schema: {"loadingURI":"file:/C:/Users/Junto%20Seguros/Desktop/Nova%20pasta/java-junit-api-rest-assured/api-rest-assured-projeto-report-portal/service-test-modules/target/test-classes/json-files/fail.system-register-schema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["id","token","username"]
+    missing: ["username"]
+
+  Actual: {"id":4,"token":"QpwL5tke4Pnpja7X4"}
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>6</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">com.project.service.scopey.tests</p>
+<p class="duration text-sm">8 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>com.project.service.scopey.tests</h4>
+<span status="pass" class='badge log pass-bg'>6 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:09:48 PM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>UserTests.shouldUpdateUserInfo</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:09:49 PM</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>UserTests.shouldMatchCreateUserSchema</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:09:50 PM</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>UserTests.shouldGetUsersListPagination</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:09:50 PM</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>UserTests.shouldGetEmptyResponseInUserSearch</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:09:51 PM</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>RegisterTests.shouldReturnErrorInSystemRegistrationAttempting</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:09:51 PM</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>RegisterTests.shouldMatchSystemRegistrationSchema</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:09:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>FailTests.shouldReturnErrorInSystemRegistrationAttempting</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:09:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>FailTests.shouldMatchSystemRegistrationSchema</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>10</span>
+</span>
+<p class="name">com.project.service.scopex.tests</p>
+<p class="duration text-sm">10 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>com.project.service.scopex.tests</h4>
+<span status="pass" class='badge log pass-bg'>10 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:09:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>AccountTests.shouldUpdateAnAccount</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:09:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>AccountTests.shouldNotDeleteAccountWithTransaction</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:09:37 PM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>AccountTests.shouldCreateAnAccount</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:09:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>AccountTests.shouldNotCreateAnAccountWithSameName</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:09:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>TransactionsTests.shouldValidateRequiredFieldsToCreateTransaction</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:09:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>TransactionsTests.shouldDeleteTransaction</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:09:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>TransactionsTests.shouldNotCreateTransactionWithFutureDate</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:09:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>TransactionsTests.shouldCreateTransaction</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:09:45 PM</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>BalanceTests.shouldGetBalanceAccount</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:09:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>AuthenticationTests.shouldNotAccessApiWithoutAuthorizationToken</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>06-05-2021 13:09:27</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>06-05-2021 13:09:53</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>16</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>2</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='88%'>
+<b>16</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='11%'><b>2</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='80%'><b>16</b> events passed</small></div>
+<div>
+<small data-tooltip='20%'><b>4</b> events failed,
+<b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"AccountTests.shouldUpdateAnAccount":1.829,"AccountTests.shouldNotDeleteAccountWithTransaction":1.642,"AccountTests.shouldCreateAnAccount":0.817,"AccountTests.shouldNotCreateAnAccountWithSameName":0.833,"TransactionsTests.shouldValidateRequiredFieldsToCreateTransaction":0.83,"TransactionsTests.shouldDeleteTransaction":1.786,"TransactionsTests.shouldNotCreateTransactionWithFutureDate":1.674,"TransactionsTests.shouldCreateTransaction":1.607,"BalanceTests.shouldGetBalanceAccount":1.712,"AuthenticationTests.shouldNotAccessApiWithoutAuthorizationToken":0.814,"UserTests.shouldUpdateUserInfo":1.249,"UserTests.shouldMatchCreateUserSchema":1.137,"UserTests.shouldGetUsersListPagination":0.133,"UserTests.shouldGetEmptyResponseInUserSearch":0.52,"RegisterTests.shouldReturnErrorInSystemRegistrationAttempting":0.558,"RegisterTests.shouldMatchSystemRegistrationSchema":0.572,"FailTests.shouldReturnErrorInSystemRegistrationAttempting":0.643,"FailTests.shouldMatchSystemRegistrationSchema":0.552
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>com.project.service.scopey.tests</td>
+<td>6</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>75%</td>
+</tr>
+<tr>
+<td>com.project.service.scopex.tests</td>
+<td>10</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 16,
+failParent: 2,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 16,
+failEvents: 4,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 0
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
