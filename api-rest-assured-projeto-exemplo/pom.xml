@@ -3,11 +3,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>br.com.project</groupId>
-	<artifactId>api-rest-assured-report-portal</artifactId>
+	<artifactId>api-rest-assured-projeto-exemplo</artifactId>
 	<version>0.0.1</version>
 	<packaging>jar</packaging>
 
-	<name>api-rest-assured-report-portal</name>
+	<name>api-rest-assured-projeto-exemplo</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
