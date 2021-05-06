@@ -1,4 +1,4 @@
-# Java + Rest Assured
+# Java + Rest Assured + Extent Reports
 
 Projeto de automação desenvolvido com o Java + Rest Assured e integrado com relatório HTML para acompanhamento de execuções que teve como objetivo validar de forma prática sua aplicação em um processo de testes automatizados de serviço.
 
