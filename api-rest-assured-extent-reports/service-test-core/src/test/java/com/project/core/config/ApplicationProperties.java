@@ -5,14 +5,13 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.junit.Assert;
 
 import com.project.core.helpers.EnvironmentBuilder;
 
 public class ApplicationProperties {
 
-	private static final Logger logger = LoggerFactory.getLogger(ApplicationProperties.class);
+	// private static final Logger logger = LoggerFactory.getLogger(ApplicationProperties.class);
 	private Properties properties = new Properties();
 
 	public ApplicationProperties() {
@@ -26,11 +25,14 @@ public class ApplicationProperties {
 
 	private void loadAplicationProperties() {
 		try {
+			String fileProperties = "src/test/resources/properties/application.properties";
+			
 			// InputStream stream = this.getClass().getResourceAsStream("/properties/application.properties");
-			InputStream stream = new FileInputStream("src/test/resources/properties/application.properties");
+			InputStream stream = new FileInputStream(fileProperties);
 			properties.load(stream);
 		} catch (IOException e) {
-			logger.error("Error on trying to read properties");
+			// logger.error("Error on trying to read properties");
+			Assert.fail("Error on trying to read properties");
 		}
 	}
 

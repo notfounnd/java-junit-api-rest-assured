@@ -21,8 +21,9 @@ public class ScopexPartialSuiteRunner extends BaseRunner {
 	@BeforeClass
 	public static void suiteSetUpAll() {
 		// System.out.println("Before suite");
-		RestAssuredBuilder.setRestAssured("scopex", PROPERTIES);
+		String prefix = "scopex";
 		
+		RestAssuredBuilder.setRestAssured(prefix, PROPERTIES);
 		AccountHelper.generateAuthorization();
 		AccountHelper.resetData();
 	}

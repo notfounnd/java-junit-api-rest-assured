@@ -34,8 +34,11 @@ Abra o arquivo e inicie uma execução utilizando o recurso 'JUnit Test'
 
 Com o Maven devidamente configurado em sua estação de trabalho, abra um terminal e navegue até a pasta raiz do projeto (pasta que contém o arquivo pom.xml).
 
-Após posicionar o temrinal na pasta mencionada anteriormente, execute um dos seguintes comandos de exemplo listados abaixo.
-```
+Após posicionar o terminal na pasta mencionada anteriormente, execute um dos seguintes comandos de exemplo listados abaixo.
+```bash
+mvn clean test -am -Dtest=PerformFullSuiteRunner -Denv=QAS
+mvn clean test -am -Dtest=PerformFullSuiteRunner -Denv=DEV
+
 mvn clean test -am -Dtest=ScopexFullSuiteRunner,ScopeyFullSuiteRunner -Denv=QAS
 mvn clean test -am -Dtest=ScopexFullSuiteRunner,ScopeyPartialSuiteRunner -Denv=DEV
 

@@ -22,8 +22,9 @@ public class ScopeyFullSuiteRunner extends BaseRunner {
 	@BeforeClass
 	public static void suiteSetUpAll() {
 		// System.out.println("Before suite");
+		String prefix = "scopey";
 		
-		RestAssuredBuilder.setRestAssured("scopey", PROPERTIES);
+		RestAssuredBuilder.setRestAssured(prefix, PROPERTIES);
 	}
 
 	@AfterClass

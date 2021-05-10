@@ -42,11 +42,13 @@ public class EnvironmentBuilder {
 			File destination = new File(getDestinationPropertieFilePath());
 			File targetFolder = new File("target/test-classes/properties/application.properties");
 			
-			System.out.println(String.format("-------------------------------------------------------"));
-			System.out.println(String.format("Environment file: %s", fileName));
-
 			FileUtils.copyFile(source, destination);
 			FileUtils.copyFile(source, targetFolder);
+			
+			System.out.println(String.format("-------------------------------------------------------"));
+			System.out.println(String.format("Environment file: %s", fileName));
+			System.out.println(String.format("Environment argument: %s", System.getProperty("env")));
+			System.out.println(String.format("-------------------------------------------------------"));
 		} catch (IOException e) {
 			e.printStackTrace();
 			Assert.fail("Error on generate environment file");

@@ -16,13 +16,9 @@ public abstract class BaseRunner {
 	
 	@BeforeClass
 	public static void baseRunnerSetUpAll() {
-		System.out.println(String.format("Environment argument: %s", System.getProperty("env")));
-		System.out.println(String.format("Property environment: %s", PROPERTIES.getProperty("test.environment")));
-		System.out.println(String.format("-------------------------------------------------------"));
-		
 		// RestAssuredBuilder.setRestAssured(PROPERTIES);
 	}
-
+	
 	@AfterClass
 	public static void baseRunnerTearDownAll() {
 		RestAssured.reset();
