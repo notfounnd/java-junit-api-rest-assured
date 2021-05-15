@@ -104,6 +104,10 @@ target/
 
 ### Custom ###
 
+# IDE #
+.idea
+*.iml
+
 # Files #
 *.pdf
 
